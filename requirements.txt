@@ -2,5 +2,7 @@ streamlit
 pandas
 numpy
 scikit-learn
-matplotlib
-joblib
+streamlit==1.25.0
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.3.2
