@@ -31,7 +31,7 @@ dataset = pd.read_csv('diabetes.csv')
 
 # Preprocess the data
 dataset_new = dataset.copy()
-dataset_new[["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]] = dataset_new[["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]].replace(0, np.NaN) 
+dataset_new[["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]] = dataset_new[["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]].replace(0, np.nan) 
 dataset_new["Glucose"].fillna(dataset_new["Glucose"].mean(), inplace=True)
 dataset_new["BloodPressure"].fillna(dataset_new["BloodPressure"].mean(), inplace=True)
 dataset_new["SkinThickness"].fillna(dataset_new["SkinThickness"].mean(), inplace=True)
