@@ -57,7 +57,7 @@ Run the Streamlit app:
 streamlit run app.py
 
 Access the app:
-The application will open in your default web browser at http://localhost:8501.
+The application will open in your default web browser at (https://diabetes-prediction-using-ml-mdenqi52ipxakmcpcelqt2.streamlit.app/).
 
 💡 Usage
 Once the application is running:
