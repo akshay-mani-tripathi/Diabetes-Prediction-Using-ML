@@ -56,8 +56,6 @@ Run the Streamlit app:
 
 streamlit run app.py
 
-(Assuming your main Streamlit application file is named app.py. Adjust if your file has a different name.)
-
 Access the app:
 The application will open in your default web browser at http://localhost:8501.
 
